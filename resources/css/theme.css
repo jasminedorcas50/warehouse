@@ -1,0 +1,155 @@
+/* General Theme Variables */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #2196F3;
+    --text-color: #2c3e50;
+    --light-bg: #f8f9fa;
+    --white: #ffffff;
+    --gradient-primary: linear-gradient(135deg, #4CAF50 0%, #2196F3 100%);
+}
+
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-color);
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: var(--white) !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+
+/* Button Styles */
+.btn-custom {
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-custom {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white);
+}
+
+.btn-primary-custom:hover {
+    background-color: #3d8b40;
+    color: var(--white);
+}
+
+.btn-secondary-custom {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-secondary-custom:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* Card Styles */
+.card-custom {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+}
+
+/* Section Styles */
+.section-header {
+    background: var(--gradient-primary);
+    color: var(--white);
+    padding: 60px 0;
+    margin-bottom: 40px;
+}
+
+/* Table Styles */
+.table-custom {
+    background: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-custom thead {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* Form Styles */
+.form-control-custom {
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+.form-control-custom:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+/* Alert Styles */
+.alert-custom {
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.alert-success-custom {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-error-custom {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Footer Styles */
+.footer-custom {
+    background-color: var(--white);
+    padding: 20px 0;
+    margin-top: 40px;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+/* Hero Section */
+.hero-section {
+    background: var(--gradient-primary);
+    color: var(--white);
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+/* Feature Card */
+.feature-card {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
